@@ -9,6 +9,8 @@ init project:
 Server:
 
 1. create a node server + express using npm in the server folder
+    a. create a folder name 'server'
+    b.
 2.
 
 
