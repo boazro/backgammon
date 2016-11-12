@@ -4,10 +4,18 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { PieceComponent } from './components/piece/piece.component';
+import { DiceComponent } from './components/dice/dice.component';
+import { PointComponent } from './components/point/point.component';
+import { PlayerComponent } from './components/player/player.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PieceComponent,
+    DiceComponent,
+    PointComponent,
+    PlayerComponent
   ],
   imports: [
     BrowserModule,

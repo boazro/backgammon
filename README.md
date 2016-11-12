@@ -24,3 +24,16 @@ init client:
 2. to start run 'cd backgammon' +  'ng serve'
 3. browser to: 'http://localhost:4200/'.
 
+
+build a new backgammon game:
+
+client:
+
+1. create a new component :
+    a. add components folder inside 'app' folder
+    b. add new component: piece - 'ng g component piece'
+    c. add new component: dice - 'ng g component dice'
+    d. add new component: point - 'ng g component point'
+    e. add new component: player - 'ng g component player'
+
+2.

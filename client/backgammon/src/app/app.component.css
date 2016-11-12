@@ -1,0 +1,40 @@
+.board {
+    width: 610px;
+    height: 480px;
+    position: relative;
+    background-color: #335533;
+    box-sizing: border-box;
+    border: 10px solid black;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.left-bin {
+    position: relative;
+    left: 15px;
+    top: 0px;
+}
+
+.right-bin {
+    position: relative;
+    left: 330px;
+    top: -389px;
+}
+
+.left-bin .bottom-row {
+    clear: left;
+}
+
+.right-bin .top-row {
+    clear: left;
+}
+
+.right-bin .bottom-row {
+    clear: left;
+}
+
+.bottom-row {
+    position: relative;
+    top: 70px
+}
