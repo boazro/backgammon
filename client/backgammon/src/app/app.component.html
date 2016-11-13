@@ -1,8 +1,8 @@
 <section class="board">
     <div class="left-bin">
         <div class="top-row">
-            <!--<point *ngFor="let point of points.slice(12,17); let odd=odd; let even=even"-->
-                   <!--class="arrow-down" [[ngClass]="{odd: odd, even:even}"></point>-->
+            <point *ngFor="let point of points.slice(12,17); let odd=odd; let even=even"
+                   class="arrow-down" [ngClass]="{odd: odd, even:even}"></point>
             <!--<div class="arrow-down odd"></div>-->
             <!--<div class="arrow-down even"></div>-->
             <!--<div class="arrow-down odd"></div>-->
@@ -12,8 +12,8 @@
         </div>
 
         <div class="bottom-row">
-            <!--<point *ngFor="let point of points.slice(6,11); let odd=odd; let even=even"-->
-                   <!--class="arrow-up" [[ngClass]="{odd: odd, even:even}"></point>-->
+            <point *ngFor="let point of points.slice(6,11); let odd=odd; let even=even"
+                   class="arrow-up" [ngClass]="{odd: odd, even:even}"></point>
             <!--<div class="arrow-up odd"></div>-->
             <!--<div class="arrow-up even"></div>-->
             <!--<div class="arrow-up odd"></div>-->
@@ -27,8 +27,8 @@
 
     <div class="right-bin">
         <div class="top-row">
-            <!--<point *ngFor="let point of points.slice(18,23); let odd=odd; let even=even"-->
-                   <!--class="arrow-down" [[ngClass]="{odd: odd, even:even}"></point>-->
+            <point *ngFor="let point of points.slice(18,23); let odd=odd; let even=even"
+                   class="arrow-down" [ngClass]="{odd: odd, even:even}"></point>
             <!--<div class="arrow-down odd"></div>-->
             <!--<div class="arrow-down even"></div>-->
             <!--<div class="arrow-down odd"></div>-->
@@ -38,8 +38,8 @@
         </div>
 
         <div class="bottom-row">
-            <!--<point *ngFor="let point of points.slice(0,5); let odd=odd; let even=even"-->
-                   <!--class="arrow-up" [[ngClass]="{odd: odd, even:even}"></point>-->
+            <point *ngFor="let point of points.slice(0,5); let odd=odd; let even=even"
+                   class="arrow-up" [ngClass]="{odd: odd, even:even}"></point>
             <!--<div class="arrow-up odd"></div>-->
             <!--<div class="arrow-up even"></div>-->
             <!--<div class="arrow-up odd"></div>-->
