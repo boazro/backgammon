@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input} from '@angular/core';
 import { PieceComponent } from '../piece/piece.component';
 
 @Component({
@@ -8,13 +8,28 @@ import { PieceComponent } from '../piece/piece.component';
 })
 
 export class PointComponent implements OnInit {
-  private index: number = 0;
-  private pieces: PieceComponent[];
+  @Input() position:string;
+  private _index: number = 0;
+  public pieces: PieceComponent[];
 
   constructor() {
     this.pieces = [];
-    this.index = index;
+
   }
+
+
+  get index(): number {
+    return this._index;
+  }
+
+  set index(value: number) {
+    this._index = value;
+  }
+
+  addPiece(piece:PieceComponent){
+    this.pieces.push(piece);
+  }
+
 
   ngOnInit() {
   }

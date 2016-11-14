@@ -21,6 +21,16 @@
     left: 330px;
     top: -389px;
 }
+.arrow-down {
+    width: 0px;
+    height: 0px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 195px solid green;
+    border-bottom: 0px solid;
+    display: inline;
+    float: left;
+}
 
 .left-bin .bottom-row {
     clear: left;
